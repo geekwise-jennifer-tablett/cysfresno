@@ -30,3 +30,32 @@ nav{
     z-index: 9999;
     }
 
+li{background-color:none;
+text-align: -webkit-match-parent;
+display:inline-block;
+float:left;
+border-bottom:1px dotted #333;
+border-radius:0;
+box-shadow:none;
+color:#728aa5;
+font-size:13px;
+padding: relative;
+text-transform: none;
+width:138px;
+}
+
+footer{
+    clear:both;
+    font:14px;
+    margin:0 auto;
+    text-shadow:1px 1px #fff;
+    width: 100%;
+}
+
+#gototop{text-align: center;
+cursor:auto;
+}
+#credds{float:right;
+text-align:right;
+width:750%;
+}
