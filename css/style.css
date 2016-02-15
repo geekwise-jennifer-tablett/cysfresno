@@ -1,0 +1,32 @@
+header{background-color:#728aa5;
+}
+
+div{display:block;
+}
+a:webkit-any-link{color: webkit link;
+text-decoration:underline;
+cursor:auto;
+}
+nav{
+    
+}
+#main_menue{
+    display:block;
+    list-style:disc;
+    text-align:center;
+    overflow: hidden;
+    width:100%;
+    line-height: 23.4375px;
+}
+.second_menu{
+    background-color:#fff;
+    border-radius: 5px;
+    height:auto;
+    left: -9999px;
+    margin:-5px 0 0;
+    padding:3px 10px 5px;
+    position: absoulute;
+    width: 148px;
+    z-index: 9999;
+    }
+
