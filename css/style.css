@@ -10,6 +10,10 @@ header{
     text-align: center;
      
 }
+
+#slideshow{float:left;
+}
+
 div{
     display: block;`
 }
@@ -19,6 +23,7 @@ nav{
     padding: 0 auto;
     
 }
+#box1{}
 li{
     display: inline-block;
     
@@ -46,62 +51,51 @@ li{
     display: block;
 }
 
-#section1{
-    background-color: white;
+box1{
+    background-color: green;
     margin:0 auto;
     width:100%;
     text-align: center;
     padding:0;
+    float:left;
 }
+
 a{
     color:white;
 } 
     
-#empolyee{
+box2empolyee{
     width:calc(100%/3);
-    float:left;
+    float:;
     margin: 0 auto;
-    background-color: white;
-    
-    
-    
-    
-}
-#parent{
-    width: 90%;
-    width:calc(100%/3);
-    float:left;
-    background-color: white;
-    
-    
-}
-#cys){
-    width: 90%;
-    width:calc(100%/3);
-    float: right;
-    background-color: white;
+    background-color: orange;
     
 }
 
-#section2{
-    background-color: white;
+
+}
+
+box3{
+    background-color: purple;
     margin:0 auto;
     width:100%;
     text-align: center;
     padding:0;
+    float:left;
+    
 }
-#news{
+#box3news{
     width: 70%;
     width:calc(100%/3);
     float: left;
-    background-color: white;
+    background-color: purple;
     
 }
 #about_cys){
     width: 70%;
     width:calc(100%/3);
     float:left;
-    background-color: white;
+    background-color: purple;
     
 }
 #office{
