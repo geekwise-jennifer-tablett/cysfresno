@@ -7,6 +7,7 @@ html,body{
 }
 body{
     margin:0;
+    background-color:#ffffff;
 }
 header{
     height:13rem;
@@ -42,8 +43,43 @@ nav > ul >li{
     border-radius:2rem;
     font-size:2rem;
     float:left;
+    background-color:#728ba8;
     color:#ffffff;
 }
 
+main{
+    margin-top:5rem;
+    height:100%;
+    width:100%;
+    background-color:#f1f1f1;
+}
 
-
+div{
+    margin:0 auto;
+    margin-top:2rem;
+    padding:0;
+    height:20rem;
+    width:50%;
+    box-shadow:.3rem .2rem  #ddd;
+    border-radius:.5rem;
+    background-color:#ffffff;
+}
+.list_left{
+    height:90%;
+    width:calc(100%/3);
+    float:left;
+    font-size:1rem;
+}
+.list_middle{
+    height:90%;
+    width:calc(100%/3);
+    float:left;
+    font-size:1rem;
+}
+.li_color{
+    list-style:none;
+    color:#53a7d2;
+}
+a{
+    text-decoration: none;
+}
