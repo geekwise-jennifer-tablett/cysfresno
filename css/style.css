@@ -18,11 +18,17 @@ header{
     width:100%;
     background-color:#ffffff;
 }
-img{
+#slide_show{
     margin:0 auto;
+    text-align:center;
     display:block;
     box-sizing:border-box;
     position:relative;
+}
+object{
+    display:block;
+    margin:0 auto;
+    text-align: center;
 }
 nav{
     text-align: center;
@@ -140,7 +146,7 @@ a:hover{
     margin:0 auto;
     box-shadow:.3rem .2rem  #ddd;
     padding:0;
-    height:40rem;
+    height:90rem;
     width:75%;
     
 }
@@ -156,7 +162,7 @@ a:hover{
 #about_ulleft >li{
     margin:1rem;
     list-style:none;
-    font-size:1rem;
+    font-size:2rem;
 }
 #h1_left{
    clear:both;
@@ -168,27 +174,27 @@ a:hover{
     text-align: center;
     
 }
-
-#abut_ulright{
+section{
     margin:0;
     padding:0;
-    display:block;
-    text-align:center;
     float:right;
-    height:auto;
-    width:calc(100%/3);
+    height:100%;
+    width:calc(100%/4);
 }
-#abut_ulright >li{
-    background-color:pink;
-    border:.1rem #ddd;
+.div_right{
+    margin:1rem;
+    padding:0;
     display:block;
-}
-.inside_ul{
-    background-color:gold;
-    display:block;
-    height:1rem;
-    width:1rem;
+    height:20rem;
+    width:20rem;
     float:right;
+    border:.2rem solid #ddd;
+    background-color:#ffffff;
+}
+.ul_inside{
+    margin:0 auto;
+    padding:0;
+    display:block;
 }
 
 
