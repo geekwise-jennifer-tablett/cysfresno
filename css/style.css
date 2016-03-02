@@ -148,7 +148,7 @@ a:hover{
     padding:0;
     height:90rem;
     width:75%;
-    
+    position:relative;
 }
 #about_ulleft{
     margin:0;
@@ -158,11 +158,12 @@ a:hover{
     float:left;
     height:auto;
     width:calc(100%/2);
+    position:relative;
 }
 #about_ulleft >li{
     margin:1rem;
     list-style:none;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 #h1_left{
    clear:both;
@@ -180,10 +181,12 @@ section{
     float:right;
     height:100%;
     width:calc(100%/4);
+    position:relative;
 }
 .div_right{
     margin:1rem;
     padding:0;
+    text-align:center;
     display:block;
     height:20rem;
     width:20rem;
@@ -194,8 +197,23 @@ section{
 .ul_inside{
     margin:0 auto;
     padding:0;
+    text-align:center;
     display:block;
+    list-style:none;
+    font-size:1rem;
+}
+.ul_inside >a{
+    clear:both;
+    color:#53a7d2;
+    text-decoration:underline;
+}
+hr{
+    width:80%;
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
 }
 
-
-#div_news{}
+#div_news{
+    position:relative;
+}
