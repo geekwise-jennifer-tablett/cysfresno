@@ -66,7 +66,20 @@ nav > ul >li{
     border-radius:.5rem;
     color:#000000;
 }    
-
+#slideshow{
+   margin:0 auto;
+    margin-top:2rem;
+    padding:0;
+    height:35rem;
+    width:75%;
+    box-shadow:.3rem .2rem  #ddd;
+    border-radius:.5rem;
+    background-color:#ffffff;
+}
+iframe{
+    margin:0 auto;
+    transform:translateX(25rem);
+}
 main{
     margin-top:5rem;
     height:100%;
@@ -119,13 +132,13 @@ main{
     font-size:1rem;
     list-style:none;
 }
-/*small_headers_indivs*/
 
 /*links_within_dibs*/
 .inner_a{
     clear:both;
     list-style:none;
     color:#53a7d2;
+    text-decoration:none;
 }
 /*links_within_dibs*/
 .inner_a:hover{
@@ -186,7 +199,13 @@ footer{
     margin:1rem;
     padding:1rem;
     text-align: center;
-    
+}
+.h2{
+  text-decoration:none;
+    color:#000000;
+}
+.ht:hover{
+    color:#53a7d2;
 }
 .section_right{
     margin:0;
