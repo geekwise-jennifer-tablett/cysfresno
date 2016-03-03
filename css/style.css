@@ -274,6 +274,7 @@ hr{
     text-align: center;
     font-size:2rem;
     float:left;
+<<<<<<< HEAD
 }
 /*donate_page*/
 #donatediv_topleft{
@@ -308,3 +309,6 @@ img{
     height:auto;
     position:relative;
 }
+=======
+}
+>>>>>>> parent of 2e12f87... something went horribly wrong
