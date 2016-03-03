@@ -276,6 +276,14 @@ hr{
     float:left;
 }
 /*donate_page*/
+#donatediv_topleft{
+    margin:0 auto;
+    box-shadow:.3rem .2rem  #ddd;
+    padding:0;
+    height:90rem;
+    width:75%;
+    position:relative;
+}
 #donate{
     margin-bottom:1rem;
     display:block;
@@ -287,16 +295,16 @@ hr{
     transform:translateX(-.2rem);
 }
 img{
+    padding:1rem;
     height:auto;
     width:50rem;
     float:left;
 }
 .donateleft{
-    margin:0;
+    margin-top:1rem;
     padding:0;
     display:block;
     float:left;
     height:auto;
-    width:calc(100%/2);
     position:relative;
 }
