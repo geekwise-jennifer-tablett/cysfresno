@@ -142,7 +142,7 @@ a:hover{
     font-size:1.2rem;
 }
 /*about_us*/
-#div_about{
+.div_topleft{
     margin:0 auto;
     box-shadow:.3rem .2rem  #ddd;
     padding:0;
@@ -150,7 +150,7 @@ a:hover{
     width:75%;
     position:relative;
 }
-#about_ulleft{
+.ul_left{
     margin:0;
     padding:0;
     display:block;
@@ -160,22 +160,22 @@ a:hover{
     width:calc(100%/2);
     position:relative;
 }
-#about_ulleft >li{
+.ul_left >li{
     margin:1rem;
     list-style:none;
     font-size:1.5rem;
 }
-#h1_left{
+.h1_left{
    clear:both;
     float:left;
 }
-#we{
+.h1_left{
     margin:1rem;
     padding:1rem;
     text-align: center;
     
 }
-section{
+.section_right{
     margin:0;
     padding:0;
     float:right;
@@ -216,4 +216,21 @@ hr{
 
 #div_news{
     position:relative;
+}
+/*contact*/
+#contact_left{
+   margin:0 auto;
+    box-shadow:.3rem .2rem  #ddd;
+    padding:0;
+    height:90rem;
+    width:75%;
+    position:relative;
+    background-color:#ffffff;
+}
+.c_left{
+    margin:0 auto;
+    width:calc(100%/3);
+    text-align: center;
+    font-size:2rem;
+    float:left;
 }
