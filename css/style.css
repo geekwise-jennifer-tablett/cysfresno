@@ -275,3 +275,28 @@ hr{
     font-size:2rem;
     float:left;
 }
+/*donate_page*/
+#donate{
+    margin-bottom:1rem;
+    display:block;
+    float:left;
+    height:auto;
+    width:calc(100%/6);
+    position:relative;
+    font:3rem;
+    transform:translateX(-.2rem);
+}
+img{
+    height:auto;
+    width:50rem;
+    float:left;
+}
+.donateleft{
+    margin:0;
+    padding:0;
+    display:block;
+    float:left;
+    height:auto;
+    width:calc(100%/2);
+    position:relative;
+}
